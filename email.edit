@@ -1,0 +1,22 @@
+<html>
+    <body> 
+        <form onsubmit="saveToLocalStorage(event)">
+            <label> Email </label>
+            <input type="email" name="emailId" required/>
+            <label> Name</label>
+            <input type="Text" name="username" required/>
+            <label> phonenumber </label>
+            <input type="tel" name="phinenumber" required/>
+            <button> submit </button>
+        </form>
+
+      
+            <li class="list-label">Email<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+            <li class="list-label">Email<button class="btn btn-danger btn-sm float-right edit">X</button></li>
+            <li class="list-label">name<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+             <li class="list-label">name<button class="btn btn-danger btn-sm float-right edit">X</button></li>
+            <li class="list-label">phonenumber<button class="btn btn-danger btn-sm float-right delete">X</button></li>
+             <li class="list-label">phonenumber<button class="btn btn-danger btn-sm float-right edit">X</button></li>
+            </script>
+    </body>
+    </html>
